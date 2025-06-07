@@ -1,5 +1,11 @@
 # vite-library-template
 
+## 0.0.3
+
+### Patch Changes
+
+- 75b8ff0: fix: update package.json fields for npm
+
 ## 0.0.2
 
 ### Patch Changes
