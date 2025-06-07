@@ -1,0 +1,51 @@
+{
+	"name": "vite-library-template",
+	"version": "0.0.0",
+	"private": true,
+	"type": "module",
+	"files": [
+		"dist"
+	],
+	"main": "./dist/index.umd.cjs",
+	"types": "./dist/index.d.ts",
+	"module": "./dist/index.js",
+	"exports": {
+		".": {
+			"import": "./dist/index.js",
+			"require": "./dist/index.cjs"
+		},
+		"./add": {
+			"import": "./dist/add.js",
+			"require": "./dist/add.cjs"
+		},
+		"./subtract": {
+			"import": "./dist/subtract.js",
+			"require": "./dist/subtract.cjs"
+		}
+	},
+	"scripts": {
+		"build": "tsc && vite build",
+		"format": "prettier --write .",
+		"lint": "prettier --check . && eslint .",
+		"check": "tsc --noEmit",
+		"test": "vitest --run",
+		"changeset": "changeset",
+		"changeset:version": "changeset version && git add --all",
+		"changeset:release": "changeset publish"
+	},
+	"devDependencies": {
+		"@changesets/cli": "^2.29.4",
+		"@eslint/compat": "^1.2.9",
+		"@eslint/js": "^9.28.0",
+		"@types/node": "^22.15.30",
+		"eslint": "^9.28.0",
+		"eslint-config-prettier": "^10.1.5",
+		"globals": "^16.2.0",
+		"prettier": "^3.5.3",
+		"typescript": "~5.8.3",
+		"typescript-eslint": "^8.33.1",
+		"vite": "^6.3.5",
+		"vite-plugin-dts": "^4.5.4",
+		"vitest": "^3.2.2"
+	}
+}
