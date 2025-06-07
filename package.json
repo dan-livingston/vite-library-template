@@ -1,7 +1,6 @@
 {
-	"name": "vite-library-template",
-	"version": "0.0.0",
-	"private": true,
+	"name": "@dan-livingston/vite-library-template",
+	"version": "0.0.1",
 	"type": "module",
 	"files": [
 		"dist"
