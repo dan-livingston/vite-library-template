@@ -40,7 +40,8 @@
 		"test": "vitest --run",
 		"changeset": "changeset",
 		"changeset:version": "changeset version && git add --all",
-		"changeset:release": "changeset publish"
+		"changeset:release": "changeset publish",
+		"prepublishOnly": "npm run build"
 	},
 	"devDependencies": {
 		"@changesets/cli": "^2.29.4",
