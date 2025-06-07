@@ -1,5 +1,11 @@
 # vite-library-template
 
+## 0.0.5
+
+### Patch Changes
+
+- bef4f96: fix: add prepublishOnly script
+
 ## 0.0.4
 
 ### Patch Changes
