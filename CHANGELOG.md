@@ -1,5 +1,11 @@
 # vite-library-template
 
+## 0.0.4
+
+### Patch Changes
+
+- 1e473d2: fix: change back to dist and fix typo
+
 ## 0.0.3
 
 ### Patch Changes
