@@ -7,9 +7,10 @@
   - [ ] Update files in `src`
   - [ ] Update exports in `package.json`
   - [ ] Update entry points in `vite.config.ts`
-- [ ] Update name in `package.json`
+- [ ] Update name and repository URL in `package.json`
 - [ ] Update README with content
 - [ ] Run `npm run format`, `npm run lint`, `npm run check`, and `npm run test`
+- [ ] Update LICENSE with year and name (if applicable)
 - [ ] Create an npm package for this project
 - [ ] Add the npm token to the Github repo settings
 - [ ] Delete CHANGELOG.md
