@@ -17,19 +17,19 @@
 	"module": "./dist/index.js",
 	"exports": {
 		".": {
+			"types": "./dist/index.d.ts",
 			"import": "./dist/index.js",
-			"require": "./dist/index.cjs",
-			"types": "./dist/index.d.ts"
+			"require": "./dist/index.cjs"
 		},
 		"./add": {
+			"types": "./dist/add.d.ts",
 			"import": "./dist/add.js",
-			"require": "./dist/add.cjs",
-			"types": "./dist/add.d.ts"
+			"require": "./dist/add.cjs"
 		},
 		"./subtract": {
+			"types": "./dist/subtract.d.ts",
 			"import": "./dist/subtract.js",
-			"require": "./dist/subtract.cjs",
-			"types": "./dist/subtract.d.ts"
+			"require": "./dist/subtract.cjs"
 		}
 	},
 	"scripts": {
